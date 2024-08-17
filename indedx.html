@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulário">
+    <meta name="author" content="Anderson Frota Goncalves">
+    <title> Criacao de formulário</title>
+</head>
+
+<body>
+    <h1>Formulário</h1>
+    <hr>
+<form>
+
+    Nome <input type="text" id="text_name" name="Nome"> <br>
+    <br>
+    Introduza a sua password <input type="password" id="pass" name="palavra-passe"> <br>
+    <br>
+
+    Data de Nascimento <input type="date" id="birthday" name="data Nascimento"> <br>
+    <br>
+
+    Telefone <input type="tel" id="phone" name="telefone" placeholder="123-456-789"
+        pattern="[0-9] [0-9] [0-9] [0-9] [0-9] [0-9] [0-9] [0-9] [0-9]"><br>
+    <br>
+
+    E-mail <input type="e-mail" name="e-mail" id="e-mail"><br>
+    <br>
+    <br>
+
+    Género <br>
+    <input type="radio" id="male" name="gender" value="male"> Masculino<br>
+    <input type="radio" id="male" name="gender" value="male"> Feminino <br>
+    <br>
+    <br>
+
+    Nacionalidade <br>
+    <select name="select">
+        <option value="nacionalidade">Portuguesa</option>
+        <option value="nacionalidade">Brasileiro</option>
+        <option value="nacionalidade">Outra</option>
+    </select><br>
+    <br>
+    <br>
+
+    Escolheu este curso por motivos profissionais? <br>
+    <input type="checkbox" id="box" name="sim" value="sim" checked> Sim <br>
+    <input type="checkbox" id="box" name="Näo" value="Näo" checked> Näo <br>
+    <br>
+    <br>
+    Descreva as suas motivacöes para frequentar este curso. <br>
+    <textarea cols="50" rows="20" name="desscricäo"></textarea><br>
+    <br>
+    <br>
+    Numa escala de 1 a 5 como avalia este curso? <br>
+<input type="range" id="range" name="range" min="0" max="5"> <br>
+<br>
+
+<button type="submit">Enviar formulário</button>
+<button type="reset">Apagar formulário</button>
+
+</form>
+
+</body>
+
+</html>
